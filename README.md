@@ -1,4 +1,4 @@
-# Automated Excel ETL & Business Monitoring Dashboard
+Automated Excel ETL & Business Monitoring Dashboard
 
 Project Overview
 
@@ -15,13 +15,9 @@ In many operational businesses, data comes from different systems such as order 
 Common challenges include:
 
 	•	Orders without payment
-	
 	•	Expired subscriptions still generating orders
-	
 	•	Loss-making sales
-	
 	•	Inconsistent data formats
-	
 	•	Manual consolidation errors
 
 This project solves these issues by building a layered ETL system inside Excel.
@@ -33,18 +29,13 @@ Data Sources
 The system processes four raw files.
 
 Daily Orders
+
 	•	Order_ID
-	
 	•	Order_Date
-	
 	•	City
-	
 	•	Product_Name
-	
 	•	Quantity
-	
 	•	Order_Value
-	
 	•	Customer_ID
 
 Payment Reconciliation
@@ -56,6 +47,7 @@ Payment Reconciliation
 	•	Paid_Amount
 
 Subscription Customers
+
 	•	Customer_ID
 	•	Plan_Type
 	•	Start_Date
@@ -63,6 +55,7 @@ Subscription Customers
 	•	Status
 
 Vendor Supply
+
 	•	Vendor_ID
 	•	Product_Name
 	•	Cost_Price
@@ -82,6 +75,7 @@ Staging Layer (stg_)
 Raw data is imported directly from the folder without modification.
 
 Cleaning Layer (clean_)
+
 	•	Standardized date formats
 	•	Validated numeric fields
 	•	Removed duplicates
@@ -89,6 +83,7 @@ Cleaning Layer (clean_)
 	•	Applied data consistency checks
 
 Fact Layer (fact_)
+
 	•	Consolidated order-level data
 	•	Merged payment status
 	•	Validated subscription activity
@@ -101,6 +96,7 @@ All transformations are handled inside Power Query. No manual editing is require
 Exception Logic
 
 A key part of this project is automated exception reporting. The system automatically identifies:
+
 	•	Orders without payment
 	•	Orders from inactive subscriptions
 	•	Loss-making orders
@@ -113,6 +109,7 @@ These exception tables update automatically when data is refreshed.
 Dashboard Features
 
 The executive dashboard includes:
+
 	•	Total Orders
 	•	Total Revenue
 	•	Average Order Value
@@ -122,6 +119,7 @@ The executive dashboard includes:
 	•	Exception volume overview
 
 It also includes:
+
 	•	City slicer
 	•	Month slicer
 
@@ -141,12 +139,14 @@ No formulas need to be modified.
 ⸻
 
 Skills Demonstrated
+
 	•	Excel ETL design using Power Query
 	•	Data cleaning and transformation
 	•	Fact-based data modeling
 	•	Exception reporting logic
 	•	KPI design and executive dashboard development
 	•	Scalable folder-based refresh architecture
+
 
 ⸻
 
