@@ -153,3 +153,4 @@ Skills Demonstrated
 Conclusion
 
 This project demonstrates how Excel can be used as a structured analytics platform when combined with Power Query and proper data modeling practices. The final solution provides a practical, refresh-driven business monitoring system suitable for operational decision-making.
+
