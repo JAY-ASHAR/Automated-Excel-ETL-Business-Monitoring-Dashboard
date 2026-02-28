@@ -128,9 +128,11 @@ All visuals update automatically after clicking Refresh All.
 ⸻
 
 How to Use
+
 	1.	Replace the raw files inside the designated Raw Data folder.
 	2.	Open the Excel dashboard file.
 	3.	Click Data → Refresh All.
+
 
 The ETL process runs automatically and updates all KPIs, charts, and exception reports.
 
