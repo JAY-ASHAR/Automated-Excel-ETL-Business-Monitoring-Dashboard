@@ -1,4 +1,4 @@
-Automated Excel ETL & Business Monitoring Dashboard
+# Automated Excel ETL & Business Monitoring Dashboard
 
 Project Overview
 
@@ -13,10 +13,15 @@ Business Problem
 In many operational businesses, data comes from different systems such as order management, payment systems, subscription databases, and vendor records. These files are often separate, inconsistent, and difficult to analyze together.
 
 Common challenges include:
+
 	•	Orders without payment
+	
 	•	Expired subscriptions still generating orders
+	
 	•	Loss-making sales
+	
 	•	Inconsistent data formats
+	
 	•	Manual consolidation errors
 
 This project solves these issues by building a layered ETL system inside Excel.
@@ -29,14 +34,21 @@ The system processes four raw files.
 
 Daily Orders
 	•	Order_ID
+	
 	•	Order_Date
+	
 	•	City
+	
 	•	Product_Name
+	
 	•	Quantity
+	
 	•	Order_Value
+	
 	•	Customer_ID
 
 Payment Reconciliation
+
 	•	Transaction_ID
 	•	Order_ID
 	•	Payment_Mode
@@ -66,7 +78,8 @@ ETL Architecture
 I implemented a layered approach using Power Query.
 
 Staging Layer (stg_)
-	•	Raw data is imported directly from the folder without modification
+
+Raw data is imported directly from the folder without modification.
 
 Cleaning Layer (clean_)
 	•	Standardized date formats
