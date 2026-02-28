@@ -1,4 +1,4 @@
-# Automated Excel ETL & Business Monitoring Dashboard
+Automated Excel ETL & Business Monitoring Dashboard
 
 Project Overview
 
@@ -66,8 +66,7 @@ ETL Architecture
 I implemented a layered approach using Power Query.
 
 Staging Layer (stg_)
-
-Raw data is imported directly from the folder without modification.
+	•	Raw data is imported directly from the folder without modification
 
 Cleaning Layer (clean_)
 	•	Standardized date formats
