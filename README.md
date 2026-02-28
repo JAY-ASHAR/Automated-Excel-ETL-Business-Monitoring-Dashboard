@@ -4,7 +4,7 @@ Project Overview
 
 This project is an end-to-end Excel-based ETL and business monitoring system built using Power Query. I designed it to simulate a real-world multi-city quick commerce and subscription business where operational data comes from multiple sources and needs to be consolidated, validated, and analyzed automatically.
 
-The goal of this project was not just to build a dashboard, but to create a structured data pipeline inside Excel where business users can simply update raw files and click “Refresh All” to get updated insights.
+The goal of this project was not just to build a dashboard, but to create a structured data pipeline inside Excel where business users can simply update raw files and click Refresh All to get updated insights.
 
 ⸻
 
@@ -25,7 +25,7 @@ This project solves these issues by building a layered ETL system inside Excel.
 
 Data Sources
 
-The system processes four raw files:
+The system processes four raw files.
 
 Daily Orders
 	•	Order_ID
@@ -63,7 +63,7 @@ Each file is ingested through a folder-based connection to allow scalable refres
 
 ETL Architecture
 
-I implemented a layered approach using Power Query:
+I implemented a layered approach using Power Query.
 
 Staging Layer (stg_)
 
